@@ -1,0 +1,67 @@
+.footer{
+    padding-top: 5.4rem;
+    padding-bottom: 7.4rem;
+    background: #41524A;
+}
+.footer-block {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-block__item {
+    width: 20rem;
+}
+.footer__logo {
+    font-size: 2.5rem;
+    letter-spacing: 5px;
+}
+.footer-block__item-text {
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+}
+.footer-block__item-phone {
+    display: block;
+    margin-bottom: 2rem;
+    font-weight: 700;
+}
+.footer-block__item-link {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 2.8rem;
+    margin-left: 2.2rem;
+    font-size: 1.4rem;
+}
+.footer-block__item-link::before{
+    position: absolute;
+    display: block;
+    content: '';
+    width: 30px;
+    height: 30px;
+    left: -25px;
+    top: -3px;
+}
+.footer-block__item-link--tg::before {
+    background: url('../images/home/footer-icon-1.png') no-repeat;
+}
+.footer-block__item-link--watshap::before{
+    background: url('../images/home/footer-icon-2.png') no-repeat;
+}
+.footer-block__item-link--addres::before {
+    background: url('../images/home/footer-icon-3.png') no-repeat;
+}
+.footer-block__item--menu{
+    margin-left: 15rem;
+}
+
+.footer-menu li{
+    margin-bottom: 2rem;
+    font-size: 1.6rem;
+}
+.footer-block__item-reviews {
+    margin-top: 4rem;
+    width: 20rem;
+    height: 4rem;
+    line-height: 4rem;
+    border-radius: 3px;
+    background: #F59F80;
+}

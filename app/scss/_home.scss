@@ -1,0 +1,235 @@
+//SIGNUP
+.signup{
+    padding-top: 2rem;
+    padding-bottom: 8.4rem;
+}
+.signup__title {
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.signup-block {
+    max-width: 64rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3.4rem 3rem 1rem 3rem;
+    background: #FFFDFD;
+    box-shadow: 4px 4px 20px 0px rgba(113, 159, 137, 0.30);
+}
+.signup-block__inner{
+    width: 32rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.signup-block__text {
+    margin-bottom: 2.5rem;
+    font-weight: 600;
+    color: #41524A;
+    text-align: center;
+}
+.signup-block__info-active {
+    position: relative;
+    height: 5rem;
+    line-height: 5rem;
+    padding-left: 1rem;
+    border-radius: 3px;
+    background: #719F89;
+    text-align: left;
+}
+.signup-block__info-active::after{
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: url('../images/home/home-arrows.svg') no-repeat;
+    top: 20px;
+    right: 10px;
+}
+.signup-block__info-item {
+    display: block;
+    height: 5rem;
+    line-height: 5rem;
+    font-size: 1.6rem;
+    text-align: center;
+    color: #41524A;
+    border: 1px solid rgba(113, 159, 137, 0.30);
+    opacity: 0;
+}
+.signup-block__info-active:hover .signup-block__info-item {
+    opacity: 1;
+}
+.opacity{
+    opacity: 1;
+}
+.item-active{
+    background: #719F89;
+}
+
+
+
+
+//DO
+.do {
+    padding-top: 2.8rem;
+    padding-bottom: 6.1rem;
+    background: #719F89;
+}
+.do-block {
+    margin-left: 15rem;
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+    max-width: 100rem;
+    margin-left: auto;
+}
+.do__inner{
+    position: relative;
+}
+.do__inner::before{
+    position: absolute;
+    content: 'Делаем';
+    width: 7rem;
+    height: 40rem;
+    top: 20rem;
+    left: 15rem;
+    transform: rotate(-90deg);
+    color: #91CAAE;
+    font-weight: 700;
+    font-size: 9.5rem;
+}
+.do-block__title {
+    color: #91CAAE;
+    font-size: 9.5rem;
+    font-weight: 700;
+    line-height: 27px; 
+    transform: rotate(-90deg);
+}
+.do-block__wrapper {
+    display: flex;
+    gap: 2rem;
+}
+.do-block__link {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.do-block__link-title {
+    font-size: 3rem;
+    font-weight: 700;
+}
+.do-block__link-link {
+    display: block;
+    margin-left: 2.3rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    border-bottom: 1px solid #fff;
+}
+.do-block__bottom {
+    padding: 2.5rem 1.2rem 2.5rem 1.2rem;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+.do-block__bottom-btn {
+    display: block;
+    width: 14rem;
+    height: 4rem;
+    border-radius: 3px;
+    line-height: 4rem;
+    background: #719F89;
+    text-align: center;
+    transition: all .4s ease-in;
+}
+.do-block__bottom-btn:hover{
+    background: #5ac793;
+    transition: all .4s ease-in;
+}
+.do-block__bottom-price {
+    display: block;
+    margin-left: 2.6rem;
+    color: #F59F80;
+}
+
+//STOCK
+.stock{
+    padding-top: 3.9rem;
+    padding-bottom: 13.7rem;
+}
+.stock__title {
+    margin-bottom: 5.5rem;
+}
+.stock-block {
+    display: flex;
+    gap: 2rem;
+}
+.stock-block__item {
+    width: 31rem;
+    padding: 2rem 2rem 7.4rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFF;
+    box-shadow: 4px 4px 20px 0px rgba(113, 159, 137, 0.30);
+}
+.stock-block__item-img img{
+    height: 17rem;
+    width: 19rem;
+}
+.stock-block__item-title {
+    margin-bottom: 1.7rem;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #719F89;
+}
+.stock-block__item-text {
+    text-align: center;
+    color: #41524A;
+}
+
+
+//CONTACTS
+.contact {
+    padding-top: 4.9rem;
+    padding-bottom: 10.1rem;
+    background: #719F89;
+}
+.contact-block {
+    position: relative;
+    max-width: 97rem;
+    margin-left: auto;
+}
+.contact-block::before{
+    position: absolute;
+    content: 'Контакты';
+    width: 7rem;
+    height: 40rem;
+    top: 30rem;
+    left: -8rem;
+    transform: rotate(-90deg);
+    color: #91CAAE;
+    font-weight: 700;
+    font-size: 9.5rem;
+}
+.contact-block__inner {
+    margin-bottom: 3.2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact-block__item {
+    width: 30rem;
+    display: flex;
+}
+.contact-block__item-img {
+    min-width: 3.5rem;
+}
+.contact-block__info {
+    margin-left: 1rem;
+}
+.contact-block__info-title {
+    margin-bottom: .5rem;
+    font-weight: 700;
+}
+.map{
+    width: 100%;
+}

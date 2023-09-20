@@ -5,8 +5,10 @@ body {
 	flex-direction: column;/*sticky footer*/
 	margin: 0;
 	scroll-behavior: smooth;
-	font-family: '';
-	font-weight: 400;
+	font-family: 'Montserrat';
+	font-size: 20px;
+	font-weight: 500;
+	color: #fff;
  }
 html{
 	font-size: 10px;
@@ -21,9 +23,29 @@ body > * {
 button{
 	cursor: pointer;
 }
+.button{
+	display: block;
+	font-weight: 700;
+	color: #fff;
+	border: none;
+	border-radius: 3px;
+	background: #F59F80;
+	text-align: center;
+	font-size: 1.6rem;
+	transition: all .4s ease-in;
+}
+.button:hover{
+	background: #eb764b;
+	transition: all .4s ease-in;
+}
 .container{
-	max-width: 137rem;
+	max-width: 122rem;
 	margin: 0 auto;
 	padding-left: 1.5rem;
 	padding-right: 1.5rem;
+}
+.title{
+	font-size: 9.5rem;
+	font-weight: 700;
+	color: #91CAAE;
 }

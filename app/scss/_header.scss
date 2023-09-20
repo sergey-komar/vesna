@@ -1,0 +1,104 @@
+.header{
+    background: url('../images/home/home-bg.jpg') no-repeat center/cover;
+    min-height:  100vh;
+}
+.header__inner {
+    padding-top: 4.1rem;
+    display: flex;
+    align-items: center;
+}
+.nav-icon__middle {
+    position: relative;
+    width: 5rem;
+    height: 2px;
+    background-color: #fff;
+}
+.nav-icon__middle::after,
+.nav-icon__middle::before{
+    position: absolute;
+    content: '';
+    width: 5rem;
+    height: 2px;
+    background-color: #fff;
+}
+.nav-icon__middle::after{
+    bottom: 7px;
+}
+.nav-icon__middle::before{
+    top: 7px;
+}
+.logo {
+    margin-left: 4rem;
+    font-size: 2.5rem;
+    letter-spacing: 5px;
+}
+.nav {
+    margin-left: 5.2rem;
+}
+.menu {
+    display: flex;
+    gap: 2rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+.header__wrapper{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+.header__inner-phone {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+.header__inner-btn {
+    margin-left: 2.2rem;
+    width: 15rem;
+    height: 4rem;
+    line-height: 4rem;
+}
+.heading {
+    position: absolute;
+    width: 110.5rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.heading__title {
+    margin-bottom: 1.8rem;
+    font-size: 7rem;
+    font-weight: 600;
+    text-align: center;
+}
+.heading__subtitle {
+    margin-bottom: 6rem;
+    font-size: 3rem;
+    font-weight: 500;
+    text-align: center;
+}
+.heading__btn {
+    width: 20rem;
+    height: 4rem;
+    display: block;
+    margin: 0 auto 0 auto;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 4rem;
+    background-color: transparent;
+    border-radius: 40px;
+    border: 1px solid #FFF;
+    color: #fff;
+    transition: all .4s ease-in;
+}
+.heading__btn:hover{
+    background-color: #F59F80;
+    border: none;
+    transition: all .4s ease-in;
+}
+.heading__bottom{
+    display: flex;
+    gap: 1rem;
+    width: 10rem;
+    margin-left: auto;
+    transform: translateY(20rem);
+}
+
